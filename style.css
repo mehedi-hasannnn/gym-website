@@ -252,6 +252,46 @@ font-weight: 400;
 text-align: left;
 }
 
+/* membership styles */
+
+.membership{
+    gap: 140px;
+}
+#membership-section-title{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+}
+.informat{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.member-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.96);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.member-card .member-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.member-title,
+.details{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
 
 /* Responsive query */
 
@@ -321,4 +361,9 @@ text-align: left;
     align-items: center;
     margin-bottom: 20%;
 }
+.informat{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 }

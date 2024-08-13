@@ -114,9 +114,66 @@
                
             </div>
         </section>
+        <div class="bmi-head">
+            <p class="head">BMI Calculator</p>
+            <p class="dat">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
 
-        <section>
+        <section class="calculator display-flex">
+            <div class="chart">
+                <h1>BMI Calculator chart</h1>
+                <br>
+                <table class="tablee" border="1">
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                    
+                </table>
+            </div>
+            <div class="inputs">
+                <h1>Calculate your BMI</h1>
+                <p class="dat">We believe fitness should be accessible to everyone, everywhere, regardless of <br> income or access to a gym.</p>
+                <div class="boxes">
+                    <input class="inpt" type="number" placeholder="Height/cm">
+                    <input class="inpt" type="number" placeholder="Weight/kg">
+                    <br>
+                    <input class="inpt" type="number" placeholder="Age">
+                    <select required class="inp" name="options">
+                        <option value="" hidden>Sex</option>
+                        <option value="option2">Male</option>
+                        <option value="option3">Female</option>
+                    </select>
+                    <br>
+                    <select required class="inp2" name="options">
+                        <option value="" hidden>Select an activity factor</option>
+                        <option value="option2">Little or no Exercise/Desk job</option>
+                        <option value="option3">Light exercise/sports 1-3 days/week</option>
+                        <option value="option4">Moderate Exercise/sports 3-5 days/week</option>
+                        <option value="option4">Heavy Exercise/sports 6-7 days/week</option>
+                        <option value="option4">Very heavy Exercise/ Physical job/ Training 2x/ Day</option>
+                    </select>
+                </div>
+                
 
+                <button class="btn-primary">Calculate</button>
+            </div>
         </section>
 
 

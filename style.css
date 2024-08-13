@@ -256,6 +256,7 @@ text-align: left;
 
 .membership{
     gap: 140px;
+    margin-bottom: 5%;
 }
 #membership-section-title{
     font-size: 3rem;
@@ -292,7 +293,70 @@ text-align: left;
     font-size: 0.9rem;
 }
 
-
+/* bmi calculator styles */
+.calculator{
+    background: rgb(34, 34, 34);
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.bmi-head{
+    margin-left: 30%;
+    margin-right: 24%;
+    margin-bottom: 5%;
+}
+.head{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+}
+.dat{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    text-align: left;
+}
+td{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    text-align: center;
+}
+th,td{
+    width: 20%;
+}
+.tablee{
+    width: 310px;
+    height: 216px;
+}
+.inp{
+    width: 282.5px;
+    height: 48px;
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px;
+}
+.inpt{
+    width: 260px;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 5px;
+    margin-left: 0;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+.inp2{
+    width: 585px;
+    height: 48px;
+    padding: 12px 20px 12px 20px;
+    margin: 5px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);   
+}
+select:not(:valid) {
+    color: #999;
+  }
 /* Responsive query */
 
 @media screen and (max-width: 576px) {
@@ -365,5 +429,27 @@ text-align: left;
     margin-left: 5%;
     margin-right: 5%;
 }
+.bmi-head{
+    margin-left: 50px;
+}
+.calculator{
+    flex-direction: column;
+}
 
+.chart,
+.inputs{
+    margin-left: 50px;
+}
+.chart{
+    margin-bottom: 60px;
+}
+.inpt{
+    width: 30%;
+}
+.inp{
+    width: 35%;
+}
+.inp2{
+    width: 75%;
+}
 }

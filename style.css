@@ -217,10 +217,10 @@ margin-left: 250px; */
 .habit-img{
     border-radius: 50%;
 }
-.img1,
-.img2,
-.img3,
-.img4{
+.himg1,
+.himg2,
+.himg3,
+.himg4{
     text-align: center;
 }
 
@@ -233,11 +233,14 @@ margin-left: 250px; */
     margin-right: 9%;
     margin-left: 9%;
     margin-top: 5%;
+    padding-top: 20px;
+    padding-bottom: 50px;   
 }
 .run{
     width: 366px;
     height: 312px;
     border-radius: 18px;
+    margin-top: 50px;
 }
 
 .info-tit{
@@ -309,6 +312,7 @@ text-align: left;
     font-size: 3rem;
     font-weight: 900;
     text-align: left;
+    margin-bottom: 0;
 }
 .dat{
     color: rgba(255, 255, 255, 0.5);
@@ -357,6 +361,71 @@ th,td{
 select:not(:valid) {
     color: #999;
   }
+
+/* Meet our team styles */
+h3{
+    font-weight:bolder;
+}
+.heads{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.dats{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.team-image-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 1060px;
+    height: 604px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    padding: 20px;
+
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6{
+    position: relative;
+    text-align: left;
+}
+
+.names,
+.names2,
+.names3,
+.names4,
+.names5,
+.names6{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    text-align: left;
+}
+
+
+.tname {
+    margin-bottom: 0px;
+  }
+
+.timg{
+    height: 272px;
+    width: 326.67px;
+    border-radius: 18px;
+}
+
 /* Responsive query */
 
 @media screen and (max-width: 576px) {
@@ -414,6 +483,7 @@ select:not(:valid) {
 }
 .habit-images{
     flex-direction: column;
+    align-items: center;
 }
 .extra{
     flex-direction: column;
@@ -452,4 +522,10 @@ select:not(:valid) {
 .inp2{
     width: 75%;
 }
+.team-image-container{
+    grid-template-columns: repeat(1,1fr);
+    width: 330px;
+    height: 1800px;
+}
+
 }

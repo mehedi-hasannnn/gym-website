@@ -426,6 +426,55 @@ h3{
     border-radius: 18px;
 }
 
+/* Footer related styles */
+.foot{
+    background: rgb(34, 34, 34);
+    justify-content: space-between;
+    padding-bottom: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.links,
+.links2{
+    margin-top: 37px;
+}
+.branding{
+    font-weight: 700;
+    font-size: 3em;
+    color: #E6533C;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.xyz{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    text-align: left;
+}
+.starting{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nec{
+    list-style-type: none;
+    padding-left: 0;
+}
+.items{
+    margin-bottom: 9%;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+}
+.credit{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9rem;
+    text-align: center;
+}
+.ruler{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
 /* Responsive query */
 
 @media screen and (max-width: 576px) {
@@ -526,6 +575,19 @@ h3{
     grid-template-columns: repeat(1,1fr);
     width: 330px;
     height: 1800px;
+}
+
+.foot{
+    flex-direction: column;
+}
+.links,
+.links2{
+    margin-top: 5px;
+}
+
+
+.items{
+    margin-bottom: 2%;
 }
 
 }
